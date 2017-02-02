@@ -11,11 +11,11 @@ def isDivisbleByAll(m_num, m_array)
   return true
 end
 
-m_current = 2520
+m_current = 1
 while (true)
   m_current = m_current + 1
   break if isDivisbleByAll(m_current, (1..20))
-  puts m_current if ( m_current % 1000000 == 0 )
+  #puts m_current if ( m_current % 1000000 == 0 )
 end
 
 puts m_current
