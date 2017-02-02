@@ -15,4 +15,4 @@ def highPrimeFactor(m_num)
   end
 end
 
-puts highPrimeFactor(26168960)
+puts highPrimeFactor(600851475143)
