@@ -3,8 +3,9 @@
 n = 0
 
 for i in xrange(1, 1000):
-    m3_remainder = i % 3
-    m5_remainder = i % 5
-    if not m3_remainder or not m5_remainder: n = n + i
+    m_3 = ( i % 3 == 0 )
+    m_5 = ( i % 5 == 0 )
+    #print m_3, m_5
+    if m_3 or m_5: n = n + i
 
 print n
