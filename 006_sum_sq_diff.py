@@ -12,6 +12,6 @@ for x in m_range:
     sum = sum + x
 m_sq_of_sum = sum * sum
 
-print m_sum_of_sq
-print m_sq_of_sum
+#print m_sum_of_sq
+#print m_sq_of_sum
 print m_sq_of_sum - m_sum_of_sq
