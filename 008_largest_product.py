@@ -42,7 +42,6 @@ m_num_str = """
 71636269561882670428252483600823257530420752963450"""
 
 m_num_str = re.sub('\n', '', m_num_str)
-print m_num_str
 m_num_strs = getStrs(m_num_str, 13)
 m_sums = getSums(m_num_strs)
 print max(m_sums)
