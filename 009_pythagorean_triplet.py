@@ -7,5 +7,6 @@ def getSets1000():
         if ( (m_a + m_b + m_c == 1000) and ( (m_a * m_a) + (m_b * m_b) == (m_c * m_c) ) ):
           print m_a, m_b, m_c
           print (m_a * m_b * m_c)
+          return
 
 getSets1000()
